@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(void)
 {
-  char name[256];
+  char name[64];
   printf("%p\n",&name);
   puts("What’s your name?");
   gets(name);
